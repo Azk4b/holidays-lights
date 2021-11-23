@@ -87,6 +87,6 @@ void loop() {
 
 int Toggle(toggle){
 
-  toogle = (analogRead(A0) or toogle);
+  toogle = (analogRead(A0) or toggle);
 
 }
